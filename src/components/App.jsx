@@ -3,8 +3,6 @@ import user from './profile/user.json';
 import Statistics from './statistics/statistics';
 import data from './statistics/data.json';
 
-console.log(data)
-
 export const App = () => {
   return (
     <>
@@ -16,8 +14,8 @@ export const App = () => {
         stats={user.stats}
       />
 
-      <Statistics title="God"
-      data={data} />
+      <Statistics title="God it works!" data={data} />
+      <Statistics data={data} />
     </>
   );
 };
