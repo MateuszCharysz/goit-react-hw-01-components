@@ -1,0 +1,27 @@
+.item {
+    border-radius: 3px;
+    display: flex;
+    margin: 0 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status {
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.isOnline {
+background-color: red;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.name {
+    font-size: large;
+    font-weight: 600;
+}
