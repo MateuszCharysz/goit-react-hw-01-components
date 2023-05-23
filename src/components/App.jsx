@@ -4,6 +4,8 @@ import Statistics from './statistics/statistics';
 import data from '../data/data.json';
 import FriendList from './friend-list/friend-list';
 import friends from '../data/friends.json';
+import TransactionHistory from './transaction-history/transaction-history';
+import transactions from '../data/transactions.json';
 
 export const App = () => {
   return (
@@ -18,8 +20,8 @@ export const App = () => {
 
       <Statistics title="God it works!" data={data} />
       <Statistics data={data} />
-      <FriendList arr={friends}/>
-
+      <FriendList arr={friends} />
+      <TransactionHistory props={transactions} />
     </>
   );
 };
