@@ -4,6 +4,12 @@
     width: 200px;
     border: 1px solid rgba(128, 128, 128, 0.434);
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
 }
 
-th, tr, td {border: 1px solid rgba(128, 128, 128, 0.434);}
+th,
+tr,
+td {
+    border: 1px solid rgba(128, 128, 128, 0.434);
+    border-collapse: collapse;
+}
